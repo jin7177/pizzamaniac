@@ -1,0 +1,104 @@
+html {
+    font-size: 62.5%;
+    background-color:#f39237;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    align-content:center;
+    text-align: center;
+}
+
+.content {
+    font-size: 1.4rem;
+    width: 65vw;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.intlink {
+    text-align: bottom;
+}
+
+/* Top recipe links */
+
+a {
+    font-weight:bold;
+    text-decoration: none;
+    color:blue;
+}
+
+a:hover {
+    text-decoration:underline;
+    cursor:pointer;
+    color:rgb(187, 60, 60);
+}
+
+/* a:visited {
+    color:blue;
+} */
+
+/* Top recipe links end */
+
+h1 {
+    font-size: 2.6rem;
+}
+
+.mainimg {
+    border-radius: 3rem;
+    border: .4rem solid rgba(214, 0, 0, 0.767);
+}
+
+.buttonssec {
+    position:sticky;
+    top: 0px;
+    margin: 0 auto;
+    padding: 0;
+    background-color:#ffebd0;
+    width:60%;
+    height: 57px;
+    border-radius:5rem;
+    border:2px solid red;
+}
+
+.linkbut {
+    border-radius: 1rem;
+    height: 3rem;
+    width: 12rem;
+    border: .2rem solid black;
+    cursor: pointer;
+    font-weight:bold;
+    font-size:1.6rem;
+    text-align:center;
+}
+
+.linkbut:hover {
+    border: .2rem solid red;
+    background:#EF767A;
+}
+
+.pizinfo td {
+    border: 1px solid black;
+}
+
+.pizinfohead {
+    background:#ffb951;
+}
+
+.headings {
+    /* font-size: 2rem; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:rgb(0, 0, 0);
+}
+
+.pizinfotxt {
+    background-color:#d4e6f0;
+    font-weight:normal;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
